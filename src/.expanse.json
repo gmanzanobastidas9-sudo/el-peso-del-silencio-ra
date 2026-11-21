@@ -1,0 +1,427 @@
+{
+  "entrySpaceId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+  "objects": {
+    "010c03cb-666f-47c8-99e8-17287793c3bf": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "010c03cb-666f-47c8-99e8-17287793c3bf",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "position": [
+        -0.061,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "10e366f2-d3ea-4a95-8983-419e2936e78d": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.535,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "10e366f2-d3ea-4a95-8983-419e2936e78d",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Animation_of_girl_running_3c1943e5_1080p.mp4"
+        }
+      },
+      "name": "Animation_of_girl_running_3c1943e5_1080p",
+      "order": 0.40369186986512007,
+      "parentId": "a1ff7f2f-d663-4962-b729-ba7bf357f29f",
+      "position": [
+        0,
+        0,
+        0.281
+      ],
+      "rotation": [
+        -2.148122138763183e-112,
+        -1.5697420114945768e-64,
+        1.3684555315672039e-48,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        0.416
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "24401862-ec7a-4d8b-9d7c-d236d78f6703": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "24401862-ec7a-4d8b-9d7c-d236d78f6703",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Monstruo_abrazando_a_nina_5c5c1726_1080p.mp4"
+        }
+      },
+      "name": "Monstruo_abrazando_a_nina_5c5c1726_1080p",
+      "order": 0.8493534560777269,
+      "parentId": "4e3b24c6-b5d5-4a29-89af-3ee1754d928b",
+      "position": [
+        0,
+        -5.551115123125783e-17,
+        0.28125000000000006
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "4e3b24c6-b5d5-4a29-89af-3ee1754d928b": {
+      "components": {},
+      "geometry": null,
+      "id": "4e3b24c6-b5d5-4a29-89af-3ee1754d928b",
+      "imageTarget": {
+        "name": "imagen3"
+      },
+      "material": null,
+      "name": "Marcador · imagen3",
+      "order": 5.5,
+      "parentId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "5a2c1470-d694-4a44-918e-e1d5f4528801": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "5a2c1470-d694-4a44-918e-e1d5f4528801",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Monster_emerging_before_frighten__b86047d3_1080p.mp4"
+        }
+      },
+      "name": "Monster_emerging_before_frighten__b86047d3_1080p",
+      "order": 0.4364974794521963,
+      "parentId": "970db308-7b5c-41ff-a6b1-e7ef345e12e6",
+      "position": [
+        0,
+        0,
+        0.281
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "94f85a12-0980-49af-a832-e44bff95cd00": {
+      "components": {},
+      "geometry": null,
+      "id": "94f85a12-0980-49af-a832-e44bff95cd00",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "970db308-7b5c-41ff-a6b1-e7ef345e12e6": {
+      "components": {},
+      "geometry": null,
+      "id": "970db308-7b5c-41ff-a6b1-e7ef345e12e6",
+      "imageTarget": {
+        "name": "imagen2"
+      },
+      "material": null,
+      "name": "Marcador · imagen2",
+      "order": 4.5,
+      "parentId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "9ae0d6d6-7787-4a0f-9e96-8d2836b8bad5": {
+      "components": {},
+      "geometry": null,
+      "id": "9ae0d6d6-7787-4a0f-9e96-8d2836b8bad5",
+      "imageTarget": {
+        "name": "imagen4"
+      },
+      "material": null,
+      "name": "Marcador · imagen4",
+      "order": 6.5,
+      "parentId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a1ff7f2f-d663-4962-b729-ba7bf357f29f": {
+      "components": {},
+      "geometry": null,
+      "id": "a1ff7f2f-d663-4962-b729-ba7bf357f29f",
+      "imageTarget": {
+        "name": "imagen1"
+      },
+      "material": null,
+      "name": "Marcador · imagen1",
+      "order": 3.5,
+      "parentId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "b8211bda-9999-43e4-b806-43a1f5509f84": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "b8211bda-9999-43e4-b806-43a1f5509f84",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Girl_and_monster_walking_forward_113c973d_1080p.mp4"
+        }
+      },
+      "name": "Girl_and_monster_walking_forward_113c973d_1080p",
+      "order": 0.06677313819957764,
+      "parentId": "9ae0d6d6-7787-4a0f-9e96-8d2836b8bad5",
+      "position": [
+        0,
+        -5.551115123125783e-17,
+        0.28125000000000006
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "ecd8e33f-aa11-4227-9d0d-4388d9536822": {
+      "components": {},
+      "geometry": null,
+      "id": "ecd8e33f-aa11-4227-9d0d-4388d9536822",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "e1473c2c-7fe7-42d4-b9f6-315df57748d7": {
+      "activeCamera": "010c03cb-666f-47c8-99e8-17287793c3bf",
+      "id": "e1473c2c-7fe7-42d4-b9f6-315df57748d7",
+      "name": "Espacio principal"
+    }
+  }
+}
